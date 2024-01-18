@@ -1,23 +1,23 @@
 """
 
 Network class first
-•	2 linear layers, hidden layer is 128 x n_actions
-•	Adam optimizer with 0.001 learning rate
-•	Loss function MSE:  nm.MSELoss()
-•	Send network to device
-•	Feed forward use Relu activation function
+•  2 linear layers, hidden layer is 128 x n_actions
+•  Adam optimizer with 0.001 learning rate
+•  Loss function MSE:  nm.MSELoss()
+•  Send network to device
+•  Feed forward use Relu activation function
 
 Rest of functionality is the agent class
-•	Function for choosing actions.
-•	Function for learning
-•	Function for decreasing epsilon over time
-•	Initializer should 
-    o	keep track of gamma, epsilon and action space
-    o	instantiate linear deep network to act as a Q function
-    o	choose action function should use Epsilon greedy action selection – tensor.item()
-•	decrement epsilon should be   eps_dec=0.9999995
-•	zero the optimizers gradient
-•	loss function:  Adam optimizer
+•  Function for choosing actions.
+•  Function for learning
+•  Function for decreasing epsilon over time
+•  Initializer should 
+    o  keep track of gamma, epsilon and action space
+    o  instantiate linear deep network to act as a Q function
+    o  choose action function should use Epsilon greedy action selection – tensor.item()
+•  decrement epsilon should be   eps_dec=0.9999995
+•  zero the optimizers gradient
+•  loss function:  Adam optimizer
 
 """
 import gym
