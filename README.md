@@ -10,9 +10,9 @@ This Q learning algorithm focuses on the cartpool game.
 
 You will require python 3.6 to run the algorithm.
 
-Unstable
+Unstable for the following reasons:
 
-  *	This happens because we are using one network for action values.
+  *	This occurs because I am using one network for actions and values.
   *	Correlations are present in sequence of observations.
   *	Small updates to Q may significantly change the policy.
   *	Correlations between the action-values and target values.
